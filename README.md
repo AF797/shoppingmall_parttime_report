@@ -12,6 +12,8 @@
 
 본 글은 Parttime 기간동안의 업무내용이다.
 
+언어들을 조금만 알아도 구현 가능한 수준이지만 기록용이기에 작성하게 되었다.
+
 --------
 
 ## 1. 제품 포장 계산기 시스템 제작
@@ -36,7 +38,11 @@ Link : https://github.com/AF797/product_box_calculator
 
 ### 2-1 배너
 
-(좌 이전, 우 이후)
-![배너 이전](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/ae56d72c-cf6a-4826-83c7-97c73abfb939)
-![배너 이후](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/dff08755-a754-4502-ab61-ff2435dcbc79)
+![배너](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/108d2f4c-9295-48f4-bc65-812c7f375d7c)
+
+기존에는 상단에서부터 최근 본 상품, 웹 최상단 이동, 최 하단 이동으로 구성되어 있었다.
+
+이를 최근본 상품, 문의 및 견적, 공지사항으로 구성시켰다.
+
+문의 및 견적을 누르면 해당 페이지로 이동하고, 모바일일 경우 전화로 연결되게 구현하였다.
 
