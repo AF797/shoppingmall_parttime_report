@@ -40,7 +40,7 @@ Link : https://github.com/AF797/product_box_calculator
 
 ![배너](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/108d2f4c-9295-48f4-bc65-812c7f375d7c)
 
-기존에는 상단에서부터 최근 본 상품, 웹 최상단 이동, 최 하단 이동으로 구성되어 있었다.
+기존에는 상단에서부터 최근 본 상품, 웹 최상단 이동, 최하단 이동으로 구성되어 있었다.
 
 이를 최근 본 상품, 문의 및 견적, 공지사항으로 구성시켰다.
 
