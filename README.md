@@ -34,3 +34,9 @@ Link : https://github.com/AF797/product_box_calculator
 
 아래 사진은 필자가 커스텀 한 사진들이다. 회사의 보안과 필자의 지적재산권으로 인해 코드는 공개하지 않겠다.
 
+### 2-1 배너
+
+(좌 이전, 우 이후)
+![배너 이전](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/ae56d72c-cf6a-4826-83c7-97c73abfb939)
+![배너 이후](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/dff08755-a754-4502-ab61-ff2435dcbc79)
+
