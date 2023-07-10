@@ -36,6 +36,8 @@ Link : https://github.com/AF797/product_box_calculator
 
 아래 사진은 필자가 커스텀 한 사진들이다. 회사의 보안과 필자의 지적재산권으로 인해 코드는 공개하지 않겠다.
 
+Shoppingmall Link : https://kyurimtech.co.kr/
+
 ### 2-1 배너
 
 ![배너](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/108d2f4c-9295-48f4-bc65-812c7f375d7c)
