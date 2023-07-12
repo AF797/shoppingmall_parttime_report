@@ -71,3 +71,68 @@ cafe24에 기본적으로 제공해 주는 템플릿에 한 가지 오류가 있
 이를 해결하기위하여 고객이 견적문의에서 게시글을 작성하면 작성 내용과 함께 담당자에게 메일을 보내는 시스템을 구현하였다.
 
 위 사진을 보면 정상 작동하는 것을 확인할 수 있다.
+
+### 2-4 상품 상세설명 수정
+
+![상품상세](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/e7f138db-115d-4457-b1d9-4f06c12fd390)
+
+위 사진처럼 필독사항(주의사항)을 필독사항으로 수정해 달라는 의뢰를 받았다
+
+cafe24에서 수정하려 하니 기능지원을 하지 않아서 코딩을 이용해서 수정해야 겠다는 생각이 들어 코드를 작성해보았다.
+
+원본 코드는 아래와 같다.
+
+```
+<table border="1">
+  <caption>{$name} 기본 정보</caption>
+    <tbody>
+      <tr class="{$item_display|display}">
+        <th scope="row">{$item_title}</th>
+        <td>{$item_content}</td>
+      </tr>
+      <tr class="{$item_display|display}">
+        <th scope="row">{$item_title}</th>
+        <td>{$item_content}</td>
+      </tr>
+    </tbody>
+</table>
+```
+
+수정한 코드는 아래와 같다.
+
+```
+<table border="1">
+  <caption>{$name} 기본 정보</caption>
+    <tbody>
+      <tr class="{$item_display|display}">
+        <th scope="row">{$item_title}</th>
+        <td>{$item_content}</td>
+      </tr>
+      <tr class="{$item_display|display}">
+        <th scope="row">{$item_title}</th>
+        <script>																							// 민규동 코드 수정
+          window.onload = function() {
+            var itemTitleElements = document.querySelectorAll('.section .infoArea table tbody tr');
+
+            for (var i = 0; i < itemTitleElements.length; i++) {
+              var itemTitleElement = itemTitleElements[i].querySelector('th');
+              var itemTitle = itemTitleElement.textContent.trim();
+
+              if (itemTitle === "필독사항(주의사항)") {
+                itemTitleElement.textContent = "필독사항";
+                itemTitleElement.classList.add("important");
+              }
+            }
+          };
+        </script>
+        <style>
+          .important {
+            font-size: 14px;
+            color: #555555;
+          }
+        </style>
+        <td>{$item_content}</td>
+      </tr>
+    </tbody>
+</table>
+```
