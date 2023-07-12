@@ -110,7 +110,7 @@ cafe24에서 수정하려 하니 기능지원을 하지 않아서 코딩을 이�
       </tr>
       <tr class="{$item_display|display}">
         <th scope="row">{$item_title}</th>
-        <script>																							// 민규동 코드 수정
+        <script>
           window.onload = function() {
             var itemTitleElements = document.querySelectorAll('.section .infoArea table tbody tr');
 
@@ -136,3 +136,9 @@ cafe24에서 수정하려 하니 기능지원을 하지 않아서 코딩을 이�
     </tbody>
 </table>
 ```
+
+여기서 한가지 문제점은 window.onload를 사용하다보니 필독사항 부분이 버벅거리면서 수정되는 현상이 생겼다.
+
+이에 대한 부분은 추후에 더 좋은 방법이 있으면 찾을 것이다.
+
+P.S. 알고보니 cafe24에서 직접 세팅한 값들이라 수정할 수 있는 부분이 있다. 의미없는 행동이긴 하였지만 이번 기회에 재미있는 경험을 하였으니 만족한다.
