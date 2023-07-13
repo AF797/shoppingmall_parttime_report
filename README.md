@@ -38,6 +38,8 @@ Link : https://github.com/AF797/product_box_calculator
 
 Shoppingmall Link : https://kyurimtech.co.kr/
 
+-------------
+
 ### 2-1 배너
 
 ![배너](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/108d2f4c-9295-48f4-bc65-812c7f375d7c)
@@ -47,6 +49,8 @@ Shoppingmall Link : https://kyurimtech.co.kr/
 이를 최근 본 상품, 문의 및 견적, 공지사항으로 구성시켰다.
 
 문의 및 견적을 누르면 해당 페이지로 이동하고, 모바일일 경우 전화로 연결되게 구현하였다.
+
+-------------
 
 ### 2-2 상품 진열
 
@@ -62,6 +66,8 @@ cafe24에 기본적으로 제공해 주는 템플릿에 한 가지 오류가 있
 
 또한 최대 등록 개수가 10개였는데 이 또한 커스텀 하여 개수 제한을 제거하였다.
 
+-------------
+
 ### 2-3 메일 서비스
 
 ![mailtest](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/4f632fd4-5e06-43f9-adfc-a73e36af3ea9)
@@ -71,6 +77,8 @@ cafe24에 기본적으로 제공해 주는 템플릿에 한 가지 오류가 있
 이를 해결하기위하여 고객이 견적문의에서 게시글을 작성하면 작성 내용과 함께 담당자에게 메일을 보내는 시스템을 구현하였다.
 
 위 사진을 보면 정상 작동하는 것을 확인할 수 있다.
+
+-------------
 
 ### 2-4 상품 상세설명 수정
 
@@ -142,3 +150,39 @@ cafe24에서 수정하려 하니 기능지원을 하지 않는듯 하여 코딩�
 이에 대한 부분은 추후에 더 좋은 방법이 있으면 찾을 것이다.
 
 P.S. 알고보니 cafe24에서 직접 세팅한 값들이라 수정할 수 있는 부분이 있다. 의미없는 행동이긴 하였지만 이번 기회에 재미있는 경험을 하였으니 만족한다.
+
+-------------
+
+### 2-5 견적서, 거래명세서 날인
+
+cafe24에서 견적서와 거래명세서는 html방식으로 만들어서 출력을 한다.
+
+날인 이미지를 단순 삽입을 하기에는 기본틀이 무너지고 깔끔해지지 않아서 이를 해결하기위해서는 다른 방법을 고민해야 했다.
+
+고민을 하던 중 워터마크가 생각이나 날인을 워터마크 형식으로 삽입해야겠다고 생각했다.
+
+```
+// 이미지일 경우
+<img src="이미지 링크" alt="Watermark Image" class="watermark">
+<style>
+.watermark {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  opacity: 0.5;
+}
+</style>
+
+//cafe24는 {$seal_image} 이런 형식을 많이 사용한다.
+<div class="watermark">{$seal_image}</div>
+<style>
+.watermark {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  opacity: 0.5;
+}
+</style>
+```
+
+이번 기회에 워터마크도 해보았고 재미있었다.
