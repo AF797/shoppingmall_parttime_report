@@ -16,6 +16,18 @@
 
 --------
 
+## 환경
+
+<p align="center">
+  <img src="https://img.shields.io/badge/anaconda-#44A833?style=flat-for-the-badge&logo=anaconda&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spyder-#FF0000?style=flat-for-the-badge&logo=spyderide&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Visual Studio Code-3178C6?style=flat-for-the-badge&logo=visualstudio&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-#3776AB?style=flat-for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-#F7DF1E?style=flat-for-the-badge&logo=javascript&logoColor=white"/>
+</p>
+
+--------
+
 ## 1. 제품 포장 계산기 시스템 제작
 
 제품을 고객에게 발송하기 위해 제품을 포장하는데 제품별 박스 당 개수가 달라 전부 외우지 않으면 포장에 어려움이 있었다.
