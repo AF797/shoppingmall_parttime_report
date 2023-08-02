@@ -1,5 +1,13 @@
 # shoppingmall_parttime_report
 
+<p align="center">
+  <img src="https://img.shields.io/badge/anaconda-44A833?style=flat-for-the-badge&logo=anaconda&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spyder-FF0000?style=flat-for-the-badge&logo=spyderide&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Visual Studio Code-3178C6?style=flat-for-the-badge&logo=visualstudio&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-for-the-badge&logo=javascript&logoColor=white"/>
+</p>
+
 ## Employment Period
 
 2023.03.27 ~
@@ -13,18 +21,6 @@
 본 글은 Parttime 기간 동안의 업무내용이다.
 
 언어들을 조금만 알아도 구현 가능한 수준이지만 기록용이기에 작성하게 되었다.
-
---------
-
-## 환경
-
-<p align="center">
-  <img src="https://img.shields.io/badge/anaconda-44A833?style=flat-for-the-badge&logo=anaconda&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spyder-FF0000?style=flat-for-the-badge&logo=spyderide&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Visual Studio Code-3178C6?style=flat-for-the-badge&logo=visualstudio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-for-the-badge&logo=javascript&logoColor=white"/>
-</p>
 
 --------
 
