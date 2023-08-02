@@ -19,11 +19,11 @@
 ## 환경
 
 <p align="center">
-  <img src="https://img.shields.io/badge/anaconda-#44A833?style=flat-for-the-badge&logo=anaconda&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spyder-#FF0000?style=flat-for-the-badge&logo=spyderide&logoColor=white"/>
+  <img src="https://img.shields.io/badge/anaconda-44A833?style=flat-for-the-badge&logo=anaconda&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spyder-FF0000?style=flat-for-the-badge&logo=spyderide&logoColor=white"/>
   <img src="https://img.shields.io/badge/Visual Studio Code-3178C6?style=flat-for-the-badge&logo=visualstudio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-#3776AB?style=flat-for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-#F7DF1E?style=flat-for-the-badge&logo=javascript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-for-the-badge&logo=javascript&logoColor=white"/>
 </p>
 
 --------
