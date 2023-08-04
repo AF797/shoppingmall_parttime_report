@@ -204,3 +204,6 @@ Link : https://github.com/AF797/User_Management_System
 
 ### 구현 영상
 ![ppap](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/f3a0d9cb-a764-4ba9-936e-172080e0ca0d)
+
+### Update
+추후에 추가적으로 프로그램을 여러개 만들듯하여 종합 시스템을 만들었다. (23.08.04)
