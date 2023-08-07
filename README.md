@@ -210,9 +210,18 @@ Link : https://github.com/AF797/User_Management_System
 
 ![ppap2](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/747c85bc-8058-4a62-814d-7c83225cbba2)
 
+OCR을 이용하여 주문 양식 작성 기능을 추가하였다. 아래 [4](#4-배너)에 내용이 있다. (23.08.07)
+![11](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/69fe0c72-f3c7-4971-9877-2cd2517c37b9)
+
 -------------
 
 ## 4. OCR을 이용한 주문 양식 작성
 주문량이 꽤 많아져 어떻게 하면 간편하게 할 수 있을까 고민을 하던 중 OCR 기술이 생각나서 시스템을 만들어 보았다.
 
 ## 구현 사진
+
+![22](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/34764225-da2d-4cc6-a461-28eb177dd316)
+
+## Link
+
+https://github.com/AF797/Shopping_mall_OCR
