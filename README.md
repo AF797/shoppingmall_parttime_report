@@ -226,3 +226,16 @@ OCR을 이용하여 주문 양식 작성 기능을 추가하였다. 아래에 �
 ### Link
 
 https://github.com/AF797/Shopping_mall_OCR
+
+-------------
+
+## 5. Coupang Wing API
+이번에는 Coupang Wing API를 사용해서 발주 양식에 맞춰서 txt 파일로 볼 수 있는 시스템을 만들어 보았다.
+
+엄청 간단했던 시스템이라 따로 Git하지 않고, 여기서만 다룰 예정이다.
+
+### 구현 사진
+
+![22](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/34764225-da2d-4cc6-a461-28eb177dd316)
+
+개인정보들은 캡쳐를 위해 수기로 블라인더 처리를 하였다.
