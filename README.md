@@ -236,6 +236,6 @@ https://github.com/AF797/Shopping_mall_OCR
 
 ### 구현 사진
 
-![22](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/34764225-da2d-4cc6-a461-28eb177dd316)
+![coupang](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/7bfeb46d-0757-40ac-b24e-3ea12cd605fc)
 
 개인정보들은 캡쳐를 위해 수기로 블라인더 처리를 하였다.
