@@ -262,9 +262,11 @@ https://github.com/AF797/Shopping_mall_OCR
 console.log로 일일이 다 찍어 본 후 형식을 파악해서 아래 사진과 같이 수정했다.
 
 - 수정 전
+  
 ![22](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/11cf52b3-523b-4fe3-b235-37813f16d2ec)
 
 - 수정 후
+  
 ![33](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/42f9ceee-e385-4c50-b629-509ae0ea5079)
 
 상상치도 못한 부분에서 이런 황당한 오류를 발견해서 당황스러웠다. 고쳐야 할 다른 부분도 있는지 찾아보아야겠다고 느꼈다.
