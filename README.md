@@ -239,3 +239,31 @@ https://github.com/AF797/Shopping_mall_OCR
 ![coupang](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/7bfeb46d-0757-40ac-b24e-3ea12cd605fc)
 
 개인정보들은 캡쳐를 위해 수기로 블라인더 처리를 하였다.
+
+-------------
+
+## 5. 쇼핑몰 장바구니 가격표시
+쇼핑몰에 건드릴 부분이 있는지 돌아다니던 중 장바구니의 가격표시가 이상하다는 것을 느꼈다.
+
+다른 스킨은 어떤지 모르겠으나 근무하고 있는 회사는 아키테이블이라는 스킨을 사용하고 있다.
+
+
+
+웹을 만진거라고는 HTML, CSS, JS만 간단히 건드려 보았던지라 아래 코드에 {$total_order_price_front}와 같은 형식을 보고 어떤식으로 손봐야할지 감이 안잡혔었다.
+```
+<div class="total">
+    <h3 class="title">결제예정금액</h3>
+    <div class="paymentPrice">
+        {$total_order_price_front_head}<strong id="{$total_order_price_front_id}">{$total_order_price_front}</strong>{$total_order_price_front_tail}
+        <span class="refer {$total_order_price_ref_display|display}">{$total_order_price_back_head}<span id="{$total_order_price_back_id}">{$total_order_price_back}</span>{$total_order_price_back_tail}</span>
+    </div>
+</div>
+```
+console.log로 일일이 다 찍어 본 후 형식을 파악해서 아래 사진과 같이 수정했다.
+
+
+### 구현 사진
+
+![coupang](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/7bfeb46d-0757-40ac-b24e-3ea12cd605fc)
+
+개인정보들은 캡쳐를 위해 수기로 블라인더 처리를 하였다.
