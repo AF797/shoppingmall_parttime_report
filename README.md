@@ -247,7 +247,7 @@ https://github.com/AF797/Shopping_mall_OCR
 
 다른 스킨은 어떤지 모르겠으나 근무하고 있는 회사는 아키테이블이라는 스킨을 사용하고 있다.
 
-
+![11](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/d7158760-2b35-4c9a-8d01-4f99d87d7b44)
 
 웹을 만진거라고는 HTML, CSS, JS만 간단히 건드려 보았던지라 아래 코드에 {$total_order_price_front}와 같은 형식을 보고 어떤식으로 손봐야할지 감이 안잡혔었다.
 ```
@@ -261,9 +261,10 @@ https://github.com/AF797/Shopping_mall_OCR
 ```
 console.log로 일일이 다 찍어 본 후 형식을 파악해서 아래 사진과 같이 수정했다.
 
+- 수정 전
+![22](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/11cf52b3-523b-4fe3-b235-37813f16d2ec)
 
-### 구현 사진
+- 수정 후
+![33](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/42f9ceee-e385-4c50-b629-509ae0ea5079)
 
-![coupang](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/7bfeb46d-0757-40ac-b24e-3ea12cd605fc)
-
-개인정보들은 캡쳐를 위해 수기로 블라인더 처리를 하였다.
+상상치도 못한 부분에서 이런 황당한 오류를 발견해서 당황스러웠다. 고쳐야 할 다른 부분도 있는지 찾아보아야겠다고 느꼈다.
