@@ -159,7 +159,7 @@ cafe24에서 수정하려 하니 기능지원을 하지 않는듯 하여 코딩�
 
 P.S. 알고보니 cafe24에서 직접 세팅한 값들이라 수정할 수 있는 부분이 있다. 의미없는 행동이긴 하였지만 이번 기회에 재미있는 경험을 하였으니 만족한다.
 
-[6. 쇼핑몰 장바구니 가격표시](#6-쇼핑몰-장바구니-가격표시)에 작업을 해보니 onload를 안써도 되는듯 하다. onload를 사용하지 않고 하면 버벅거리는것은 없을것으로 사료된다. (2023-08-24)
+[2-6 쇼핑몰 장바구니 가격표시](#2-6-쇼핑몰-장바구니-가격표시)에 작업을 해보니 onload를 안써도 되는듯 하다. onload를 사용하지 않고 하면 버벅거리는것은 없을것으로 사료된다. (2023-08-24)
 
 -------------
 
@@ -199,6 +199,37 @@ cafe24에서 견적서와 거래명세서는 html방식으로 만들어서 출�
 
 -------------
 
+### 2-6 쇼핑몰 장바구니 가격표시
+쇼핑몰에 건드릴 부분이 있는지 돌아다니던 중 장바구니의 가격표시가 이상하다는 것을 느꼈다.
+
+다른 스킨은 어떤지 모르겠으나 근무하고 있는 회사는 아키테이블이라는 스킨을 사용하고 있다.
+
+![11](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/d7158760-2b35-4c9a-8d01-4f99d87d7b44)
+
+웹을 만진거라고는 HTML, CSS, JS만 간단히 건드려 보았던지라 아래 코드에 {$total_order_price_front}와 같은 형식을 보고 어떤식으로 손봐야할지 감이 안잡혔었다.
+```
+<div class="total">
+    <h3 class="title">결제예정금액</h3>
+    <div class="paymentPrice">
+        {$total_order_price_front_head}<strong id="{$total_order_price_front_id}">{$total_order_price_front}</strong>{$total_order_price_front_tail}
+        <span class="refer {$total_order_price_ref_display|display}">{$total_order_price_back_head}<span id="{$total_order_price_back_id}">{$total_order_price_back}</span>{$total_order_price_back_tail}</span>
+    </div>
+</div>
+```
+console.log로 일일이 다 찍어 본 후 형식을 파악해서 아래 사진과 같이 수정했다.
+
+- 수정 전
+  
+![22](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/11cf52b3-523b-4fe3-b235-37813f16d2ec)
+
+- 수정 후
+  
+![33](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/42f9ceee-e385-4c50-b629-509ae0ea5079)
+
+상상치도 못한 부분에서 이런 황당한 오류를 발견해서 당황스러웠다. 고쳐야 할 다른 부분도 있는지 찾아보아야겠다고 느꼈다.
+
+-------------
+
 ## 3. 고객 관리 시스템 제작
 이사님께서 고객이 첫 주문인지 아닌지를 알 수 있는 프로그램을 원하셔서 관리할 수 있는 프로그램을 간단하게 만들어보았다.
 
@@ -212,7 +243,7 @@ Link : https://github.com/AF797/User_Management_System
 
 ![ppap2](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/747c85bc-8058-4a62-814d-7c83225cbba2)
 
-OCR을 이용하여 주문 양식 작성 기능을 추가하였다. 아래에 내용이 있다. (23.08.07)
+OCR을 이용하여 주문 양식 작성 기능을 추가하였다. [4. OCR을 이용한 주문 양식 작성](#4-ocr을-이용한-주문-양식-작성)에 내용이 있다. (23.08.07)
 
 ![11](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/69fe0c72-f3c7-4971-9877-2cd2517c37b9)
 
