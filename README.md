@@ -263,7 +263,7 @@ https://github.com/AF797/Shopping_mall_OCR
 -------------
 
 ## 5. Coupang Wing API
-이번에는 Coupang Wing API를 사용해서 발주 양식에 맞춰서 txt 파일로 볼 수 있는 시스템을 만들어 보았다.
+이번에는 Coupang Wing API를 사용해서 수주 양식에 맞춰서 txt 파일로 볼 수 있는 시스템을 만들어 보았다.
 
 엄청 간단했던 시스템이라 따로 Git하지 않고, 여기서만 다룰 예정이다.
 
@@ -271,4 +271,17 @@ https://github.com/AF797/Shopping_mall_OCR
 
 ![coupang](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/7bfeb46d-0757-40ac-b24e-3ea12cd605fc)
 
-개인정보들은 캡쳐를 위해 수기로 블라인더 처리를 하였다.
+개인정보들은 수기로 블라인드 처리를 하였다.
+
+-------------
+
+## 6. Naver SmartStore API
+이전에 사용했던 OCR 대신 Naver api를 이용해서 수주 양식에 맞춰서 txt 파일로 볼 수 있는 시스템을 만들어 보았다.
+
+마찬가지로 따로 Git하지 않고, 여기서만 다룰 예정이다.
+
+### 구현 사진
+
+![coupang](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/7bfeb46d-0757-40ac-b24e-3ea12cd605fc)
+
+개인정보들은 수기로 블라인드 처리를 하였다.
