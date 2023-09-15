@@ -282,6 +282,6 @@ https://github.com/AF797/Shopping_mall_OCR
 
 ### 구현 사진
 
-![coupang](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/7bfeb46d-0757-40ac-b24e-3ea12cd605fc)
+![11](https://github.com/AF797/shoppingmall_parttime_report/assets/86837707/48ffa37b-6b8d-40ce-bdce-9bc6b395a6a3)
 
 개인정보들은 수기로 블라인드 처리를 하였다.
